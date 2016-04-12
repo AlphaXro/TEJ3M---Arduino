@@ -39,6 +39,8 @@ void setup() {
   pinMode(11, OUTPUT); //B
   pinMode(12, OUTPUT); //C
   pinMode(13, OUTPUT); //D
+    
+  pinMode(3, OUTPUT);
 }
 
 void loop() {
@@ -48,6 +50,7 @@ void loop() {
     digitalWrite(11, LOW);
     digitalWrite(12, LOW);
     digitalWrite(13, LOW);
+    digitalWrite(3, LOW);
     delay(det);
 
     //1
@@ -111,6 +114,7 @@ void loop() {
     digitalWrite(11, LOW);
     digitalWrite(12, LOW);
     digitalWrite(13, HIGH);
+    digitalWrite(3, HIGH);
     delay(det);
   }
 }

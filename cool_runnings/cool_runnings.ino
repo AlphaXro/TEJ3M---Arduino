@@ -64,4 +64,6 @@ void loop() {
   digitalWrite(12,HIGH);
   delay(delayTime);
   digitalWrite(12,LOW);
+
+  Serial.println("Dank Meme");
 }
