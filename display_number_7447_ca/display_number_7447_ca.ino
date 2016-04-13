@@ -36,7 +36,7 @@
 
 //Setup variables
 
-int det = 5; //Set delay time variable
+int det = 50; //Set delay time variable
 int dit = 3000; //Set display time variable
 int randNum; //Random number integer for display
 
